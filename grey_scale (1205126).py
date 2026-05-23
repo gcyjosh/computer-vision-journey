@@ -1,3 +1,7 @@
+# Importance of GrayScale:
+# GrayScale reduces the data as it only has 1 channel compared to RGB or BGR with 3 channels, improving the efficiency of prepocessing
+
+
 import cv2
 
 image = cv2.imread("cat2.jpg")
