@@ -18,7 +18,7 @@ import cv2
 import mediapipe as mp
 
 # ── MediaPipe setup ────────────────────────────────────────────────────────────
-mp_hands = mp.solutions.hands
+mp_hands = mp.solutions.hands  ### Predecated model, the replaced by the new MediaPipe Tasks API
 mp_draw  = mp.solutions.drawing_utils
 mp_style = mp.solutions.drawing_styles
 
